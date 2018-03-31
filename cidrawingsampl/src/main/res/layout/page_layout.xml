@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#999"
+        android:orientation="horizontal"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp">
+
+        <Button
+            android:id="@+id/transform_button"
+            style="@style/ToolButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="transform"
+            android:text="Transform" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/top2_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/top_layout"
+        android:background="#999"
+        android:orientation="horizontal"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp">
+
+
+        <Button
+            android:id="@+id/shape_button"
+            style="@style/ToolButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="insertShape"
+            android:text="Shape" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottom2_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#999"
+        android:orientation="horizontal"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp">
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/bottom2_layout"
+        android:background="#999"
+        android:orientation="horizontal"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp">
+
+
+
+
+
+    </LinearLayout>
+
+    <com.mocircle.cidrawing.view.CiDrawingView
+        android:id="@+id/drawing_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottom_layout"
+        android:layout_below="@id/top2_layout" />
+</RelativeLayout>

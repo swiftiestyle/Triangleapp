@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Triangleapp.iml" filepath="$PROJECT_DIR$/Triangleapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Trianglemaking/Trianglemaking.iml" filepath="$PROJECT_DIR$/Trianglemaking/Trianglemaking.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cidrawin/cidrawin.iml" filepath="$PROJECT_DIR$/cidrawin/cidrawin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cidrawing/cidrawing.iml" filepath="$PROJECT_DIR$/cidrawing/cidrawing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cidrawingsamp/cidrawingsamp.iml" filepath="$PROJECT_DIR$/cidrawingsamp/cidrawingsamp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cidrawingsampl/cidrawingsampl.iml" filepath="$PROJECT_DIR$/cidrawingsampl/cidrawingsampl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cidrawingsample/cidrawingsample.iml" filepath="$PROJECT_DIR$/cidrawingsample/cidrawingsample.iml" />
+    </modules>
+  </component>
+</project>
